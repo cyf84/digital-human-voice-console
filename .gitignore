@@ -1,0 +1,28 @@
+# Local credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Generated audio, logs and packaged applications
+tts_output/
+build/
+dist/
+*.log
+*.exe
+
+# Python and editor caches
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.idea/
+.vscode/
+
+# Machine-specific deployment maintenance
+tidy_digital_human_root.ps1
+
+# Local verification output
+.verification/
